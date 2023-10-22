@@ -19,18 +19,19 @@ ol {
 img {
     display: block;
 }
-.container{width: 100%;
+.container{width: 1158px;
      max-width: 1128px;
      margin-left: auto;
      margin-right: auto;
-     padding-left: 15px;
-     padding-right: 15px;
+    padding: 0 15px
 }
+.header {border-bottom: 1px solid #e7e9fc}
 .one{display: flex;
 justify-content: space-between;
-padding-top: 24px;padding-bottom: 24px;}
+padding-top: 24px;padding-bottom: 24px; }
 .navigathoin {display: flex;
-gap: 76px;}
+gap: 76px;
+align-items: center;}
 .body {font-family: 'Roboto', sans-serif;
     color: #434455;
     background-color: #FFFFFF;}
@@ -43,6 +44,7 @@ a {text-decoration: none;}
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-right: 76px
 }
     .web {color: #2e2f42;}
     .addres{font-style: normal}
@@ -52,6 +54,7 @@ a {text-decoration: none;}
     line-height: 1.5;
     letter-spacing: 0.02em;list-style: none;
 display: flex;gap: 40px;}
+.menu {padding: 24px 0}
 .active:active {text-decoration: underline;}
 .addres-list{color: #434455;font-weight: 400;
     font-size: 16px;
