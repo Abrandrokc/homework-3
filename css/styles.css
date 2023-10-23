@@ -117,14 +117,14 @@ width: calc((100-24*4)/4);}
 flex-direction: column;}
 .our-team{padding-left: auto;padding-right: auto;}
 .our-team-list{display: flex;gap: 24px;}
-.our-team-pepole{width: calc((100%-72px)/ 4 ) ;}
+.pepole {padding-top: 32px; padding-bottom: 32px;}
 .five {
     display: flex;
     gap: 72px;
     flex-direction: column;
    ;
 }
-.project {margin-bottom: 75px}
+.project {margin-bottom: 72px;}
 .project-section {
     margin-top: 60px;
     margin-bottom: 60px;
@@ -137,8 +137,9 @@ flex-direction: column;}
      border: 1px solid #e7e9fc;
      border-top: none;}
 .team-section {background-color: #F4F4FD;margin-top: 60px;
-    margin-bottom: 60px;}
-.our-team-pepole{background-color: #FFFFFF;}
+    margin-bottom: 60px; padding-top: 120px; padding-bottom: 120px;}
+.our-team-pepole{background-color: #FFFFFF; margin-bottom: 72px;width: calc((100%-72px)/ 4);border-radius: 0px 0px 4px 4px;
+ }
 .benefits-list, .our-team-list, .project-list {list-style-type: none;}
 .our-team, .project {font-weight: 700;
     font-size: 36px;
@@ -147,19 +148,22 @@ flex-direction: column;}
     text-align: center;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 72px;
 }
 .name-project, .name, .name-benefits {font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2e2f42; margin-bottom: 8px
+    color: #2e2f42; margin-bottom: 8px;
+    text-align: center;
 }
 .about-benefits, .work, .type-project {
         color: #434455;
         font-size: 16px;
         line-height: 1.5;
-        letter-spacing: 0.02em
+        letter-spacing: 0.02em;
+        text-align: center;
     }
 .footer {background-color: #2E2F42;
     margin-top: 60px;
