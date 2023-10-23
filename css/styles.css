@@ -55,7 +55,10 @@ a {text-decoration: none;}
     letter-spacing: 0.02em;list-style: none;
 display: flex;gap: 40px;
 }
-.navigathoin-page .menu { padding: 24px 0;}
+.menu { padding: 24px 0;}
+.menu .sate {
+        padding: 24px 0;
+    }
 .active:active {text-decoration: underline;}
 .addres-list{color: #434455;font-weight: 400;
     font-size: 16px;
