@@ -28,8 +28,7 @@ padding-right: 15px;
 .header {border-bottom: 1px solid #e7e9fc}
 .one{display: flex;
 justify-content: space-between;
-padding-top: 24px;padding-bottom: 24px;padding-left: 15px;
-    padding-right: 15px; }
+padding-top: 24px;padding-bottom: 24px; padding: 0 15px 0 15px }
 .navigathoin {display: flex;
 gap: 76px;
 align-items: center;}
@@ -55,7 +54,7 @@ a {text-decoration: none;}
     line-height: 1.5;
     letter-spacing: 0.02em;list-style: none;
 display: flex;gap: 40px;}
-.menu {padding-top: 24px; padding-bottom: 24px; }
+.menu {padding: 24px 0 24px}
 .active:active {text-decoration: underline;}
 .addres-list{color: #434455;font-weight: 400;
     font-size: 16px;
