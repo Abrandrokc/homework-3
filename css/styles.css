@@ -27,8 +27,7 @@ padding-left: 15px; padding-right: 15px;
 .header {border-bottom: 1px solid #e7e9fc}
 .one{display: flex;
 justify-content: space-between;
-padding-top: 24px;padding-bottom: 24px; padding-left: 15px;
-    padding-right: 15px; }
+padding-top: 24px;padding-bottom: 24px; }
 .navigathoin {display: flex;
 gap: 76px;
 align-items: center;}
@@ -101,7 +100,8 @@ border-radius: 4px;}
 .tre{margin-top: 60px;margin-bottom: 60px;padding-top: 120px; padding-bottom: 120px;}
 .benefits-list{display: flex;
 gap: 24px;
-width: calc((100-24*4)/4);}
+;}
+
 .Company-benefits {
     position: absolute;
     width: 1px;
