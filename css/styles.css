@@ -122,13 +122,20 @@ flex-direction: column;}
     display: flex;
     gap: 72px;
     flex-direction: column;
+    margin-bottom: 75px;
 }
 .project-section {
     margin-top: 60px;
     margin-bottom: 60px;
+    padding-bottom: 120px;
+    padding-top: 120px;
 }
-.project-list{display: flex;flex-wrap: wrap;gap: 24px;}
+.project-list{display: flex;flex-wrap: wrap;gap: 24px;row-gap: 48px;}
 .project-name{width: calc((100% - 48px) / 3);}
+.app-name {padding: 32px 16px;
+     border: 1px solid #e7e9fc;
+     border-top: none;
+     margin-bottom: 8px;}
 .team-section {background-color: #F4F4FD;margin-top: 60px;
     margin-bottom: 60px;}
 .our-team-pepole{background-color: #FFFFFF;}
